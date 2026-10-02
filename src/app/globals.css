@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --yocar-navy: #0b1f3a;
+  --yocar-blue: #12345b;
+  --yocar-light: #f5f8fc;
+  --yocar-text: #0f172a;
+  --yocar-muted: #64748b;
+  --yocar-border: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--yocar-light);
+  color: var(--yocar-text);
+}
